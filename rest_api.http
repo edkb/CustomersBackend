@@ -1,0 +1,25 @@
+GET localhost:8000/
+
+###
+
+GET localhost:8000/customers?page=0&size=30
+
+###
+GET localhost:8000/customers/17
+
+###
+POST localhost:8000/customers
+
+###
+GET http://private-92a969-processoseletivo1.apiary-mock.com/customers
+
+
+###
+PUT localhost:8000/customers/17
+
+{
+  "id": 17,
+  "name": "Ariston Alex",
+  "age": 25,
+  "city": "Kaohsiung"
+}
