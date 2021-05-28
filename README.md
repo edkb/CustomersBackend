@@ -23,7 +23,7 @@
 
 ## Production
 
-On production, the code uses the official image uvicorn-gunicorn-fastapi:latest (see Dockerfile) to serve the app on heroku, with guinicorn managind uvicorn instances for asyncronous requests.
+On production, the code uses the official image uvicorn-gunicorn-fastapi:latest (see Dockerfile) to serve the app on heroku, with Gunicorn managing Uvicorn instances for asyncronous requests.
 
 ### Commands
 
